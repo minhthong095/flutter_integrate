@@ -16,7 +16,7 @@ struct ViewGoToSmallView: View {
     
             Text("Small View")
                 .font(Font.system(size: 30))
-                .navigationB GarTitle(Text("Single Screen Flutter"), displayMode: .automatic)
+                .navigationBarTitle(Text("Single Screen Flutter"), displayMode: .automatic)
                 .navigationBarItems(leading: Image("menu").onTapGesture(perform: {
                     self.control.show(type: .leftRear, isShow: true)
                 }))
