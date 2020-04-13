@@ -272,11 +272,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/ios_platform/Flutter",
-					"Framework/$(CONFIGURATION)",
-				);
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -337,10 +333,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/ios_platform/Flutter",
-					"Framework/$(CONFIGURATION)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -366,45 +359,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_platform/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-				);
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios_platform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -424,44 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_platform/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios_platform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,10 +428,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/ios_platform/Flutter",
-					"Framework/$(CONFIGURATION)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -539,44 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_platform/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Debug",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Profile",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-					"$(PROJECT_DIR)/ios_platform/Flutter\\ Framework/framework/Release",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ios_platform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
