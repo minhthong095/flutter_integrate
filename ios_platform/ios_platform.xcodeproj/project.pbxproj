@@ -23,6 +23,11 @@
 		A0C5210F24418F130098D61D /* ViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5210E24418F130098D61D /* ViewMain.swift */; };
 		A0C5211124418F150098D61D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C5211024418F150098D61D /* Assets.xcassets */; };
 		A0C5211424418F150098D61D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C5211324418F150098D61D /* Preview Assets.xcassets */; };
+		A0F973A4244553EB005C8C76 /* ViewScreenFlutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F973A3244553EB005C8C76 /* ViewScreenFlutter.swift */; };
+		A0F973B324455904005C8C76 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A066C9E22444BC8700F262F6 /* Flutter.framework */; };
+		A0F973B424455904005C8C76 /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A066C9E22444BC8700F262F6 /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A0F973B52445591F005C8C76 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A066C9E32444BC8700F262F6 /* App.framework */; };
+		A0F973B62445591F005C8C76 /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A066C9E32444BC8700F262F6 /* App.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +37,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A0F973B62445591F005C8C76 /* App.framework in Embed Frameworks */,
+				A0F973B424455904005C8C76 /* Flutter.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 1;
@@ -50,6 +57,12 @@
 		A01B7FA32441D9F9001C4F5A /* SliderStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderStatus.swift; sourceTree = "<group>"; };
 		A01B7FAC2441DADC001C4F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A01B7FAE2441DB60001C4F5A /* ViewGoToSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGoToSmallView.swift; sourceTree = "<group>"; };
+		A066C9DC2444BC8700F262F6 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		A066C9DD2444BC8700F262F6 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		A066C9DF2444BC8700F262F6 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		A066C9E02444BC8700F262F6 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		A066C9E22444BC8700F262F6 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		A066C9E32444BC8700F262F6 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
 		A0C5210724418F130098D61D /* ios_platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_platform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C5210A24418F130098D61D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0C5210C24418F130098D61D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +70,7 @@
 		A0C5211024418F150098D61D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C5211324418F150098D61D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0C5211824418F150098D61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F973A3244553EB005C8C76 /* ViewScreenFlutter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewScreenFlutter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F973B52445591F005C8C76 /* App.framework in Frameworks */,
+				A0F973B324455904005C8C76 /* Flutter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +98,51 @@
 				A01B7FA32441D9F9001C4F5A /* SliderStatus.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		A066C9D92444BC8700F262F6 /* FlutterFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A066C9DA2444BC8700F262F6 /* framework */,
+			);
+			path = FlutterFramework;
+			sourceTree = "<group>";
+		};
+		A066C9DA2444BC8700F262F6 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				A066C9DB2444BC8700F262F6 /* Release */,
+				A066C9DE2444BC8700F262F6 /* Profile */,
+				A066C9E12444BC8700F262F6 /* Debug */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		A066C9DB2444BC8700F262F6 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				A066C9DC2444BC8700F262F6 /* Flutter.framework */,
+				A066C9DD2444BC8700F262F6 /* App.framework */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		A066C9DE2444BC8700F262F6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A066C9DF2444BC8700F262F6 /* Flutter.framework */,
+				A066C9E02444BC8700F262F6 /* App.framework */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A066C9E12444BC8700F262F6 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				A066C9E22444BC8700F262F6 /* Flutter.framework */,
+				A066C9E32444BC8700F262F6 /* App.framework */,
+			);
+			path = Debug;
 			sourceTree = "<group>";
 		};
 		A0AFF6872442AD18008E0D4D /* Frameworks */ = {
@@ -111,6 +172,8 @@
 		A0C5210924418F130098D61D /* ios_platform */ = {
 			isa = PBXGroup;
 			children = (
+				A0F973A62445543D005C8C76 /* FlutterView */,
+				A066C9D92444BC8700F262F6 /* FlutterFramework */,
 				A01B7F9C2441D9F9001C4F5A /* Classes */,
 				A0C5210A24418F130098D61D /* AppDelegate.swift */,
 				A0C5210C24418F130098D61D /* SceneDelegate.swift */,
@@ -132,6 +195,14 @@
 				A0C5211324418F150098D61D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0F973A62445543D005C8C76 /* FlutterView */ = {
+			isa = PBXGroup;
+			children = (
+				A0F973A3244553EB005C8C76 /* ViewScreenFlutter.swift */,
+			);
+			path = FlutterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +283,7 @@
 				A01B7FA92441D9F9001C4F5A /* DrawerControl.swift in Sources */,
 				A0C5210D24418F130098D61D /* SceneDelegate.swift in Sources */,
 				A01B7F952441D5E3001C4F5A /* ViewGoToFlutterScreen.swift in Sources */,
+				A0F973A4244553EB005C8C76 /* ViewScreenFlutter.swift in Sources */,
 				A0C5210F24418F130098D61D /* ViewMain.swift in Sources */,
 				A01B7FAF2441DB60001C4F5A /* ViewGoToSmallView.swift in Sources */,
 				A01B7FA82441D9F9001C4F5A /* MainContainer.swift in Sources */,
@@ -359,12 +431,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_platform/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/ios_platform/FlutterFramework/framework/Debug";
 				INFOPLIST_FILE = ios_platform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "example.ios-platform";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -379,12 +452,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_platform/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/ios_platform/FlutterFramework/framework/Debug";
 				INFOPLIST_FILE = ios_platform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "example.ios-platform";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -454,12 +528,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_platform/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/ios_platform/FlutterFramework/framework/Debug";
 				INFOPLIST_FILE = ios_platform/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "example.ios-platform";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
