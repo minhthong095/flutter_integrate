@@ -7,16 +7,16 @@
 //
 
 import UIKit
-import Flutter
+//import Flutter
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    let flutterEngine = FlutterEngine(name: "FlutterEngine")
+//    let flutterEngine = FlutterEngine(name: "FlutterEngine")
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        flutterEngine.run()
+//        flutterEngine.run()
         return true
     }
 
