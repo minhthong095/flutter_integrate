@@ -6,7 +6,7 @@ apply plugin: 'kotlin-android-extensions'
 
 repositories {
     maven {
-        url "$rootDir/lib/counter_module/repo"
+        url "$rootDir/lib/counter_module"
     }
     maven {
         url 'http://download.flutter.io'

@@ -5,10 +5,10 @@
 
     <group android:checkableBehavior="single">
         <item
-                android:id="@+id/nav_home"
-                android:title="@string/menu_home"/>
+                android:id="@+id/new_screen"
+                android:title="New screen"/>
         <item
-                android:id="@+id/nav_gallery"
-                android:title="@string/menu_gallery"/>
+                android:id="@+id/new_screen_cached"
+                android:title="New screen (cached)"/>
     </group>
 </menu>

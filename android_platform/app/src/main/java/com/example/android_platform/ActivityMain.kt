@@ -14,7 +14,6 @@ import android.view.Menu
 
 class ActivityMain : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -48,11 +47,10 @@ class ActivityMain : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_home -> {
+            R.id.new_screen -> {
                 supportFragmentManager.beginTransaction().replace(R.id.fragment_container, FragmentSingleScreenFlutter()).commit()
             }
-            R.id.nav_gallery -> {
-
+            R.id.new_screen_cached -> {
             }
         }
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)

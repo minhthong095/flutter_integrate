@@ -6,8 +6,20 @@
               android:layout_height="match_parent">
 
     <Button
-            android:id="@+id/btnNewFlutterScreen"
-            android:text="Go to Flutter screen"
+            android:text="BLUE flutter screen"
+            android:id="@+id/btnBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:text="GREEN flutter screen"
+            android:id="@+id/btnGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:text="only BLUE screen (cached)"
+            android:id="@+id/btnNewFlutterScreenCached"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
