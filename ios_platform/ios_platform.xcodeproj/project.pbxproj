@@ -18,6 +18,10 @@
 		A01B7FAA2441D9F9001C4F5A /* SliderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B7FA32441D9F9001C4F5A /* SliderStatus.swift */; };
 		A01B7FAD2441DADC001C4F5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01B7FAB2441DADC001C4F5A /* LaunchScreen.xib */; };
 		A01B7FAF2441DB60001C4F5A /* ViewGoToSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B7FAE2441DB60001C4F5A /* ViewGoToSmallView.swift */; };
+		A0656C2324469E43008EC6FE /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0656BF824469B83008EC6FE /* App.framework */; };
+		A0656C2424469E43008EC6FE /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0656BF824469B83008EC6FE /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A0656C2524469E44008EC6FE /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0656BF724469B83008EC6FE /* Flutter.framework */; };
+		A0656C2624469E44008EC6FE /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0656BF724469B83008EC6FE /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A0C5210B24418F130098D61D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5210A24418F130098D61D /* AppDelegate.swift */; };
 		A0C5210D24418F130098D61D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5210C24418F130098D61D /* SceneDelegate.swift */; };
 		A0C5210F24418F130098D61D /* ViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5210E24418F130098D61D /* ViewMain.swift */; };
@@ -29,13 +33,15 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		A0D0BF2C24423D8C0099EA06 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A0656C2424469E43008EC6FE /* App.framework in Embed Frameworks */,
+				A0656C2624469E44008EC6FE /* Flutter.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -51,6 +57,12 @@
 		A01B7FA32441D9F9001C4F5A /* SliderStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderStatus.swift; sourceTree = "<group>"; };
 		A01B7FAC2441DADC001C4F5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A01B7FAE2441DB60001C4F5A /* ViewGoToSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGoToSmallView.swift; sourceTree = "<group>"; };
+		A0656BF124469B83008EC6FE /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		A0656BF224469B83008EC6FE /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		A0656BF424469B83008EC6FE /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		A0656BF524469B83008EC6FE /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		A0656BF724469B83008EC6FE /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		A0656BF824469B83008EC6FE /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
 		A0C5210724418F130098D61D /* ios_platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_platform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C5210A24418F130098D61D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0C5210C24418F130098D61D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0656C2324469E43008EC6FE /* App.framework in Frameworks */,
+				A0656C2524469E44008EC6FE /* Flutter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +98,43 @@
 				A01B7FA32441D9F9001C4F5A /* SliderStatus.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		A0656BEF24469B83008EC6FE /* FlutterFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A0656BF024469B83008EC6FE /* Release */,
+				A0656BF324469B83008EC6FE /* Profile */,
+				A0656BF624469B83008EC6FE /* Debug */,
+			);
+			path = FlutterFramework;
+			sourceTree = "<group>";
+		};
+		A0656BF024469B83008EC6FE /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				A0656BF124469B83008EC6FE /* Flutter.framework */,
+				A0656BF224469B83008EC6FE /* App.framework */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		A0656BF324469B83008EC6FE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A0656BF424469B83008EC6FE /* Flutter.framework */,
+				A0656BF524469B83008EC6FE /* App.framework */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A0656BF624469B83008EC6FE /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				A0656BF724469B83008EC6FE /* Flutter.framework */,
+				A0656BF824469B83008EC6FE /* App.framework */,
+			);
+			path = Debug;
 			sourceTree = "<group>";
 		};
 		A0AFF6872442AD18008E0D4D /* Frameworks */ = {
@@ -113,6 +164,7 @@
 		A0C5210924418F130098D61D /* ios_platform */ = {
 			isa = PBXGroup;
 			children = (
+				A0656BEF24469B83008EC6FE /* FlutterFramework */,
 				A0F973A62445543D005C8C76 /* FlutterView */,
 				A01B7F9C2441D9F9001C4F5A /* Classes */,
 				A0C5210A24418F130098D61D /* AppDelegate.swift */,
@@ -370,14 +422,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_platform/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/ios_platform/FlutterFramework/Debug";
 				INFOPLIST_FILE = ios_platform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "example.ios-platform";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -391,14 +446,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_platform/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/ios_platform/FlutterFramework/Debug";
 				INFOPLIST_FILE = ios_platform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "example.ios-platform";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -467,14 +526,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ios_platform/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/ios_platform/FlutterFramework/Debug";
 				INFOPLIST_FILE = ios_platform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "example.ios-platform";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -493,7 +556,7 @@
 				A0D0BEFD244237610099EA06 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		A0C5211B24418F150098D61D /* Build configuration list for PBXNativeTarget "ios_platform" */ = {
 			isa = XCConfigurationList;
@@ -503,7 +566,7 @@
 				A0D0BEFE244237610099EA06 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,27 +7,14 @@
 //
 
 import SwiftUI
-//import Flutter
+import Flutter
 
 struct ViewGoToFlutterScreen: View {
     @EnvironmentObject public var control: DrawerControl
 
     var body: some View {
-//        NavigationView {
-//            NavigationLink(destination: ViewScreenFlutter()) {
-//                Text("Go to Flutter screen")
-//                    .font(Font.system(size: 30))
-//            }
-//                .navigationBarTitle(Text("Single Screen Flutter"), displayMode: .automatic)
-//                .navigationBarItems(leading: Image("menu").onTapGesture(perform: {
-//                        self.control.show(type: .leftRear, isShow: true)
-//                }))
-//
-//        }
-//        .foregroundColor(Color.blue)
-        
         NavigationView {
-            Button(action: {}) {
+            NavigationLink(destination: ViewScreenFlutter()) {
                 Text("Go to Flutter screen")
                     .font(Font.system(size: 30))
             }
@@ -38,5 +25,18 @@ struct ViewGoToFlutterScreen: View {
 
         }
         .foregroundColor(Color.blue)
+        
+//        NavigationView {
+//            Button(action: {}) {
+//                Text("Go to Flutter screen")
+//                    .font(Font.system(size: 30))
+//            }
+//                .navigationBarTitle(Text("Single Screen Flutter"), displayMode: .automatic)
+//                .navigationBarItems(leading: Image("menu").onTapGesture(perform: {
+//                        self.control.show(type: .leftRear, isShow: true)
+//                }))
+//
+//        }
+//        .foregroundColor(Color.blue)
     }
 }
